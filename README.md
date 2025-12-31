@@ -1,16 +1,17 @@
 # Anuvaad – Multilingual Chatbot Backend
 # Live Website
 https://sakshi241712.github.io/Multilingual-Chatbot-Using-GenAI/
+
 Backend services for a multilingual chatbot using Generative AI, designed to support Indian regional languages through a translation and LLM-based pipeline.
 
-Project Overview
+# Project Overview
 
 This repository contains the backend implementation of the Multilingual Chatbot Using Generative AI project.
 The backend processes user messages, translates Indian regional languages into English, generates AI-powered responses using a Large Language Model (LLM), and translates the response back into the user’s language.
 
 The backend communicates with the frontend chatbot (Chatling) using REST APIs.
 
-Features
+# Features
 
 REST API for chatbot interaction
 
@@ -24,7 +25,7 @@ Prompt engineering for controlled AI output
 
 CORS-enabled backend for frontend integration
 
-Backend Workflow
+# Backend Workflow
 User Message
    ↓
 Language Detection
@@ -51,7 +52,7 @@ Generative AI (LLM)
 
 Translation APIs / Language Models
 
-Git & GitHub
+# Git & GitHub
 
 Folder Structure
 anuvaad-backend/
@@ -64,7 +65,7 @@ anuvaad-backend/
 ├── .gitignore
 └── README.md
 
-API Endpoint
+# API Endpoint
 POST /chat
 
 Request
